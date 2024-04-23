@@ -1659,6 +1659,10 @@ img {
     cursor: wait;
 }
 
+.app__download-thumb:hover {
+    opacity: 0.8;
+}
+
 /* App icons */
 .app__icon {
     position: absolute;
