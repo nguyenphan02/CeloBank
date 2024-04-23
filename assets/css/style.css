@@ -733,28 +733,6 @@ img {
     background-color: var(--secondary-text-color);
 }
 
-.guide__content-title::before {
-    content: attr(data);
-    position: absolute;
-    white-space: nowrap;
-    overflow: hidden;
-    color: red;
-    animation: colorChange1 7s;
-    z-index: -1;
-}
-
-@keyframes colorChange1 {
-    0% {
-        width: 0%;
-        filter: drop-shadow(0 0 5px red);
-        z-index: 0;
-    }
-    100% {
-        width: 100%;
-        z-index: -1;
-    }
-}
-
 .guide__content-wrap:nth-of-type(2) .guide__content-sub-title {
     height: 64px;
 }
