@@ -1562,10 +1562,19 @@ img {
 }
 
 .blogs__item-wrap {
-    display: flex;
     align-items: center;
     gap: 22px;
+    display: flex;
     padding: 28px;
+}
+
+.blogs__item-wrap:hover .blogs__item-thumb {
+    opacity: 0.8;
+}
+
+.blogs__item-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .blogs__item-date {
