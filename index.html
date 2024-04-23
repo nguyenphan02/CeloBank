@@ -231,12 +231,14 @@
 
                             <!-- Hero content cta -->
                             <form
+                                method="post"
                                 action="https://api-gateway.fullstack.edu.vn/action_page.php"
                                 class="hero__content-cta animate__animated animate__backInLeft animate__delay-2s"
                                 autocomplete="off"
                             >
                                 <input
                                     type="email"
+                                    name="Email"
                                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                                     class="hero__content-email"
                                     placeholder=""
@@ -1011,12 +1013,14 @@
                         <div class="footer__subscribe">
                             <h2 class="footer__subscribe-title">News letter</h2>
                             <form
+                                method="post"
                                 action="https://api-gateway.fullstack.edu.vn/action_page.php"
                                 class="footer__subscribe-cta"
                                 autocomplete="off"
                             >
                                 <input
                                     type="email"
+                                    name="Email"
                                     class="footer__subscribe-email"
                                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                                     placeholder=""
